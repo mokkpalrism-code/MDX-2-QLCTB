@@ -178,7 +178,7 @@ if not df.empty:
         height=950
     )
     
-    output_file = r"C:\Users\ADMIN\Desktop\visualize_biendo_gia.html"
+    output_file = "index.html"
     
     fig.write_html(output_file)
     fig.show()
